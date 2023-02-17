@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public bool isOnGround = true;
     public bool gameOver = false;
     public ParticleSystem explosionParticle;
+    public ParticleSystem dirtParticle;
 
     // Start is called before the first frame update
     void Start()
