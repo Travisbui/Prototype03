@@ -562,7 +562,7 @@ MonoBehaviour:
   isOnGround: 1
   gameOver: 0
   explosionParticle: {fileID: 807276046}
-  dirtParticle: {fileID: 0}
+  dirtParticle: {fileID: 1089756400}
 --- !u!65 &1074353869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -597,6 +597,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400066, guid: 4a7c3ad7168bb834b87a91e3f94ad3d6, type: 3}
   m_PrefabInstance: {fileID: 1607377325}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1089756400 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
+  m_PrefabInstance: {fileID: 1522457204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1522457204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -610,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1419152992, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37999994
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1419152992, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -618,7 +623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1419152992, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4700003
+      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: 1419152992, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
       propertyPath: m_LocalRotation.w
