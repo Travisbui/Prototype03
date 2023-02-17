@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10.0f;
     public float gravityModifer;
     public bool isOnGround = true;
-    public bool gameOver = false;
+    public bool gameOver;
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
     public AudioClip jumpSound;
@@ -50,6 +50,8 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
             explosionParticle.Play();
+            dirtParticle.Stop();
+            playerAudio.PlayOneShot(crashSound, 1.0f);
         }
     }
 }
